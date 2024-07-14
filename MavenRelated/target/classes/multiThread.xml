@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="thread" parallel="classes" thread-count="2">
+    <test name="mutli">
+        <classes name="thread">
+            <class name="com.nancy.testng.multiThread.MultiThreadOnXmlTest" />
+            <class name="com.nancy.testng.multiThread.MultiThreadTest" />
+        </classes>
+    </test>
+</suite>
